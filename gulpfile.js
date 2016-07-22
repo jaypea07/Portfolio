@@ -1,13 +1,14 @@
-var gulp 		= require('gulp');
-var browserSync = require('browser-sync');
-var reload 		= browserSync.reload;
-var baseDir		= './app';
+var gulp 		    = require('gulp');
+var browserSync     = require('browser-sync');
+var reload 		    = browserSync.reload;
+var appDirectory   = 'app/';
 
 gulp.task('serve', function() {
     browserSync({
         server: {
-            baseDir: baseDir
+            baseDir: './',
+            index: appDirectory + 'index.html'
         }
     });
-    gulp.watch(baseDir + '/**/*', browserSync.reload);
+    gulp.watch(appDirectory + '**/*', browserSync.reload);
 });
