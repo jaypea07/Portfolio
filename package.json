@@ -1,0 +1,8 @@
+{
+  "name": "jessica-patzer-portfolio",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1"
+  }
+}
