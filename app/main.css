@@ -9,3 +9,7 @@
     flex-direction: column;
     height: 600px;
 }
+
+.intro {
+    background-color: white;
+}
