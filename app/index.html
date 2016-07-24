@@ -3,116 +3,94 @@
     <head>  
         <title>Portfolio</title>
 
-        <link rel="stylesheet" href="../node_modules/material-design-lite/material.min.css">
-        <script src="../node_modules/material-design-lite/material.min.js"></script>
+        <!-- Material Design Lite: Need to decide if I want to keep this in. -->
+        <!--<link rel="stylesheet" href="../node_modules/material-design-lite/material.min.css">
+        <script src="../node_modules/material-design-lite/material.min.js"></script>-->
+
+        
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="app/main.css">
     </head>
     <body>
-        <div class="landing-bg mdl-layout mdl-js-layout">
 
-            <header class="mdl-layout__header mdl-layout__header--transparent">
-                <div class="mdl-layout__header-row">
-                    <!-- Title -->
-                    <span class="mdl-layout-title">Title</span>
-                    <!-- Add spacer, to align navigation to the right -->
-                    <div class="mdl-layout-spacer"></div>
-                    <!-- Navigation -->
-                    <nav class="mdl-navigation">
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="">Link</a>
-                    </nav>
-                </div>
-            </header>
-            
-            <div class="mdl-layout__drawer">
-                <span class="mdl-layout-title">Title</span>
-                <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                </nav>
-            </div>
-
-            <main class="mdl-layout__content hero">
-
-                <section class="hero">
-                    <h1>Jessica Patzer</h1>
-                    <h2>Web/UI/UX/Front-End Engineer</h2>
-                </section>
-                
-                <section class="intro">
-                    <div>
-                        <h3>Who I Am</h3>
-                        <p>I’m a Dallas-based web developer who loves to create beautiful UIs and write clean code. When I'm not trying to make the web a better place, you'll find me cross-stitching nerdy samplers, working through my Goodreads reading list, or in the gym powerlifting.</p>
-                    </div>
-                    <div>
-                        <h3>What I Do</h3>
-                        <p> currently work at Bottle Rocket, an awesome mobile development studio, where I primarily write and maintain AngularJS applications.</p>
-                    </div>
-                </section>
-            </main>
-
-            <footer class="mdl-mega-footer">
-                <div class="mdl-mega-footer__middle-section">
-
-                    <div class="mdl-mega-footer__drop-down-section">
-                        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                        <h1 class="mdl-mega-footer__heading">Features</h1>
-                        <ul class="mdl-mega-footer__link-list">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Terms</a></li>
-                            <li><a href="#">Partners</a></li>
-                            <li><a href="#">Updates</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="mdl-mega-footer__drop-down-section">
-                        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                        <h1 class="mdl-mega-footer__heading">Details</h1>
-                        <ul class="mdl-mega-footer__link-list">
-                            <li><a href="#">Specs</a></li>
-                            <li><a href="#">Tools</a></li>
-                            <li><a href="#">Resources</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="mdl-mega-footer__drop-down-section">
-                        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                        <h1 class="mdl-mega-footer__heading">Technology</h1>
-                        <ul class="mdl-mega-footer__link-list">
-                            <li><a href="#">How it works</a></li>
-                            <li><a href="#">Patterns</a></li>
-                            <li><a href="#">Usage</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Contracts</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="mdl-mega-footer__drop-down-section">
-                        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                        <h1 class="mdl-mega-footer__heading">FAQ</h1>
-                        <ul class="mdl-mega-footer__link-list">
-                            <li><a href="#">Questions</a></li>
-                            <li><a href="#">Answers</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
                 </div>
 
-                <div class="mdl-mega-footer__bottom-section">
-                    <div class="mdl-logo">Title</div>
-                    <ul class="mdl-mega-footer__link-list">
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Privacy & Terms</a></li>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
                     </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+
+        <section class="hero">
+            <h1>Jessica Patzer</h1>
+            <h2>Web/UI/UX/Front-End Engineer</h2>
+        </section>
+
+        <section class="intro container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Who I Am</h3>
+                    <p>I’m a Dallas-based web developer who loves to create beautiful UIs and write clean code. When I'm not trying to make the web a better place, you'll find me cross-stitching nerdy samplers, working through my Goodreads reading list, or in the gym powerlifting.</p>
                 </div>
+                <div class="col-sm-6">
+                    <h3>What I Do</h3>
+                    <p>I currently work at Bottle Rocket, an awesome mobile development studio, where I primarily write and maintain AngularJS applications.</p>
+                </div>
+            </div>
+        </section>
 
-            </footer>
+        <section class="work">
+            <div class="container">
+                <h3>Work</h3>
+                <p>Like what you see? I occasionally pick up freelance work, so drop me a line if you’d be interested in working together.</p>
+            </div>
+            <div class="work-grid">
+            </div>
+        </section>
 
-        </div>
+        <footer>
+        </footer>
     </body>
 </html>
