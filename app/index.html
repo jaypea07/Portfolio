@@ -6,14 +6,18 @@
         <link rel="stylesheet" href="../node_modules/material-design-lite/material.min.css">
         <script src="../node_modules/material-design-lite/material.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="app/main.css">
     </head>
     <body>
-        <div class="mdl-layout mdl-js-layout">
-            
-            <header class="mdl-layout__header mdl-layout__header--scroll">
+        <div class="landing-bg mdl-layout mdl-js-layout">
+
+            <header class="mdl-layout__header mdl-layout__header--transparent">
                 <div class="mdl-layout__header-row">
+                    <!-- Title -->
                     <span class="mdl-layout-title">Title</span>
+                    <!-- Add spacer, to align navigation to the right -->
                     <div class="mdl-layout-spacer"></div>
+                    <!-- Navigation -->
                     <nav class="mdl-navigation">
                         <a class="mdl-navigation__link" href="">Link</a>
                         <a class="mdl-navigation__link" href="">Link</a>
@@ -32,11 +36,14 @@
                     <a class="mdl-navigation__link" href="">Link</a>
                 </nav>
             </div>
-            
-            <main class="mdl-layout__content">
-                <div class="page-content">
-                    <h1>Hello World</h1>
-                </div>
+
+            <main class="mdl-layout__content hero">
+
+                <section class="hero">
+                    <h1>Jessica Patzer</h1>
+                    <h2>Web/UI/UX/Front-End Engineer</h2>
+                </section>
+                
             </main>
 
             <footer class="mdl-mega-footer">
@@ -95,7 +102,6 @@
                 </div>
 
             </footer>
-
 
         </div>
     </body>

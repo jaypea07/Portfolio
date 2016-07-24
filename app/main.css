@@ -1,0 +1,11 @@
+.landing-bg {
+    background: url('https://getmdl.io/assets/demos/transparent.jpg') center / cover;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
