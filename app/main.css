@@ -7,6 +7,21 @@
     height: 500px;
 }
 
+.intro {
+    padding: 50px 0;
+    background-color: grey;
+}
+
+.work {
+    padding: 50px 0 0;
+    background-color: #DDD;
+}
+
+.work .container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .work-grid {
     width: 100%;
     background-color: grey;
@@ -24,3 +39,20 @@
 .work-grid .pos4 { background: url('https://upload.wikimedia.org/wikipedia/commons/d/d7/Philippine-stock-market-board.jpg') center / cover; }
 .work-grid .pos5 { background: url('https://static.pexels.com/photos/215/road-sky-clouds-cloudy.jpg') center / cover; }
 .work-grid .pos6 { background: url('http://img04.deviantart.net/bf29/i/2015/150/8/2/industrial_decay_stock_105_by_malleni_stock-d67q11h.jpg') center / cover; }
+
+.about {
+    padding: 50px 0;
+    text-align: center;
+    background-color: grey;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #DDD;
+}
+
+footer {
+    background-color: grey;
+    padding: 30px 0 20px;
+}
