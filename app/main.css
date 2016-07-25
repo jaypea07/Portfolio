@@ -9,6 +9,18 @@
 
 .work-grid {
     width: 100%;
-    height: 700px;
     background-color: grey;
 }
+
+.work-grid_item {
+    width: 33.333333%;
+    height: 300px;
+    float: left;
+}
+
+.work-grid .pos1 { background: url('https://getmdl.io/assets/demos/transparent.jpg') center / cover; }
+.work-grid .pos2 { background: url('http://science-all.com/images/wallpapers/stock-image/stock-image-11.jpg') center / cover; }
+.work-grid .pos3 { background: url('https://bootstrapbay.com/blog/wp-content/uploads/2014/05/unslpash-desert-road_uvsq5s.png') center / cover; }
+.work-grid .pos4 { background: url('https://upload.wikimedia.org/wikipedia/commons/d/d7/Philippine-stock-market-board.jpg') center / cover; }
+.work-grid .pos5 { background: url('https://static.pexels.com/photos/215/road-sky-clouds-cloudy.jpg') center / cover; }
+.work-grid .pos6 { background: url('http://img04.deviantart.net/bf29/i/2015/150/8/2/industrial_decay_stock_105_by_malleni_stock-d67q11h.jpg') center / cover; }
